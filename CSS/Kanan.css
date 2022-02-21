@@ -1,0 +1,32 @@
+.blog{
+    border: 1px solid blue;
+    padding: 20px 0px;
+
+
+}
+
+.blog-container{
+    border: 1px solid red;
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse
+
+}
+.blog-Item{
+border: 1px solid rgb(43, 107, 43)n;
+display: inline-block;
+width: 455px;
+height: 227px;
+background: blue;
+color: white;
+padding: 15px;
+box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
