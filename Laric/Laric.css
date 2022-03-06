@@ -1,0 +1,30 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+.Laric-container {
+    width: 1200px;
+    margin: 0px auto;
+    height: inherit;
+    position: relative;
+}
+.Laric-info{
+    display: flex;
+    justify-content: space-between;
+}
+.Laric-info-Nav{
+    display: flex;
+    align-items: center;
+}
+.Laric-info-Nav ul{
+    display: flex;
+}
+.Laric-info-Nav ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-weight: 400;
+    font-size: 0.9em;
+    gap: 23px;
+}
