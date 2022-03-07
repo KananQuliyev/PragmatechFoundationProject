@@ -1,35 +1,93 @@
 body{
     font-family: 'Mulish', sans-serif;
     font-size: 20px;
+    margin: 0px;
+
 }
-.Laric-container {
-    width: 1200px;
+.laric-container {
+    width: 1260px;
     margin: 0px auto;
     height: inherit;
     position: relative;
+
+}
+#laric-info {
+    height: 590px;
+    background-image: url(../Laric/Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.laric-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
 }
 
-.Laric-info{
+
+.laric-info{
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
 }
-.Laric-info-Nav{
+.laric-info-Nav{
     display: flex;
     align-items: center;
+    padding: 30px 0px;
+
+
+    
 }
-.Laric-info-Nav ul{
+
+    
+
+.laric-info-Nav ul{
     display: flex;
     list-style: none;
     margin: 0px;
     padding: 0px;
     
+
 }
-.Laric-info-Nav ul li a{
-    color: black;
-    text-transform: uppercase;
+.laric-info-Nav ul li a{
+    color: white;
+    text-transform: capitalize;
     text-decoration: none;
-    padding: 0px 15px;
+    padding: 10px 20px;
     font-weight: 400;
-    font-size: 0.9em;
-    gap: 23px;
+    font-size: 1.1em;
+    transition: all .5s  linear;
+    
+    
+    
 }
+.laric-info-Nav ul li a:hover {
+    background: rgb(164, 2, 73);
+}
+.laric-sms-container{
+    width: 1260px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px
+}
+.laric-answer h1{
+    font-size: 23px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.laric-sent input{
+    width: 200px;
+    height: 52px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+    
+
