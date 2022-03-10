@@ -82,12 +82,58 @@ body{
     margin: 0px;
 
 }
-.laric-sent input{
+.laric-menyu input{
     width: 200px;
     height: 52px; 
     box-sizing: border-box;
     border-radius: 10px;
     margin: 10px 20px;
-}
-    
+    font-size: 17px;
 
+}
+  .laric-sent button{
+      width: 200px;
+      height: 52px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin: 10px 20px;
+      background-color:rgb(164, 2, 73);
+      
+
+ }
+ .laric-static {
+     margin: 10px 20px;
+
+ }
+ .laric-static-answer{
+     position: relative;
+     left: 125px;
+     
+ }
+ .laric-static-icon {
+     display:inline-block;
+     
+ }
+ .laric-static-icon img{
+     margin-left: 300px;
+     position: relative;
+     top: 30px;
+
+     
+ }
+ .laric-static-icon h5{
+     margin-left: 325px;
+     position: relative;
+     top: 30px;
+     font-size: 25px;
+
+ }
+ .laric-static-icon p{
+     margin-left: 280px;
+     position: relative;
+     top: 30px;
+
+ }
+ 
+ 
+ 
