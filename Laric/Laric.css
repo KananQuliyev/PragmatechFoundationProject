@@ -135,5 +135,59 @@ body{
 
  }
  
+ .laric-popular p{
+     font-size: 24px;
+     font-weight: 500;
+     color: rgb(164, 2, 73);
+     
+     
+ }
+ .popular {
+     display: inline-block;
+     position: relative;
+    padding: 81px 150px;
+
+ }
+ .laric-product{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 15px;
+      
+ }
+ .laric-nav{
+     text-align: center; 
+      }
+ .laric-nav img{
+     width: 286px;
+     height: 215px;
+ }
+.laric-nav h5{
+    font-size: 22px;
+    display: block;
+    margin: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+ 
+
+    
+
+
+ 
+ 
  
  
