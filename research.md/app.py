@@ -1,2 +1,5 @@
-if 7> 4:
-  print("Seven is greater than four!")
+x = "Python"
+y = "Welcome!"
+
+print(x)
+print(y)
