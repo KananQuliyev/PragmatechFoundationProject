@@ -18,9 +18,3 @@ x = "Kanan"
 print(x[1])
 for x in "Kanan":
  print(x)
- x=111
- y=11
- if x>y:
-     print("x is greater than y")
- else:
-     print("x is not  greater than y")
